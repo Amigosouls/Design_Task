@@ -1,0 +1,27 @@
+/* Nav bar background color; */
+.navbar.navbar-custom {
+    border: none;
+    border-radius: 0;
+    color:bisque;
+    background-color:rgb(73, 109, 11);
+    height: 120ppx;
+  }
+
+/* Navbar Font weight */
+.nav-item >a{
+  font-weight:bold;
+  margin: 15px;
+  
+}
+
+/* Brand font family */
+
+/* brand img rotation */
+.rotate{
+  -ms-transform: skewY(-20deg);
+  transform: skewY(-20deg);
+}
+/* align items center */
+.navbar-nav{
+  padding-left: 100px;
+}
