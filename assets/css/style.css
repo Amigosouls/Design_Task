@@ -3,7 +3,7 @@
     border: none;
     border-radius: 0;
     color:bisque;
-    background-color:rgb(73, 109, 11);
+    background-color:rgb(75, 128, 75);
     height: 120ppx;
   }
 
@@ -24,4 +24,14 @@
 /* align items center */
 .navbar-nav{
   padding-left: 100px;
+}
+body{
+  background-color:rgb(91, 150, 84);
+  box-shadow: 0 4px 8px 0 rgba(2, 2, 2, 0.2), 0 6px 20px 0 rgba(150, 121, 121, 0.19);
+}
+.about>img{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  box-shadow:0 4px 8px 0 rgba(10, 3, 3, 0.2), 0 6px 20px 0 rgba(150, 121, 121, 0.19) ;
 }
