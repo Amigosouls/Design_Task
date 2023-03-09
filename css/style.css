@@ -269,24 +269,29 @@ body {
 }
 
 .chef .container-fluid {
-  position: relative;}
+  position: relative;
+}
+
 .chef .heading {
   position: absolute;
   text-align: center;
   background-image: url(/assets/img/chef-border-1.png)
 }
-.chef .heading >h3{
+
+.chef .heading>h3 {
   font-family: myfont;
   font-size: 50px;
   margin-top: 30px;
   color: #ffffff;
 }
-.chef .heading >h2{
+
+.chef .heading>h2 {
   font-family: "poppins";
   font-size: 20px;
   margin-top: 27px;
   color: #ffffff;
 }
+
 .chef .container-fluid .row .chef1 {
   width: 346px;
   height: 597px;
@@ -378,9 +383,9 @@ body {
   font-family: "Montserrat";
   text-align: center;
   margin-top: 100px;
-  margin-left: 250px;
+  margin-left: 100px;
   position: absolute;
-  
+
 }
 
 /*==========History=========  */
@@ -435,46 +440,100 @@ body {
   background-color: #ffffff;
   margin-top: 50px;
 }
+
 /*===========Testimonial=============*/
-.testimonial{
+.testimonial {
   height: 570px;
   color: #ffffff;
   text-align: center;
 }
-.testimonial .container .carousel-indicators >button{
-  border-radius:100%;
-  height: 20px;
-  width: 20px;
-  border-style:solid;
+
+.testimonial .container .carousel-indicators>button {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  background-color: #ffffff;
 }
-.testimonial .t-item >h3{
+
+.testimonial .t-item>h3 {
   font-family: myfont;
   font-size: 80px;
-  margin-top:50px;
+  margin-top: 50px;
 }
-.testimonial .t-item >h4{
+
+.testimonial .t-item>h4 {
   font-family: "poppins";
   font-size: 20px;
+  margin-bottom: 120px;
 }
-.testimonial .t-item >p{
+
+.testimonial .t-item>p {
   font-family: "poppins";
   font-size: 20px;
   width: 1200px;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 100px;
 }
+
+/*============Menu===================*/
+.menu {
+  height: 1715px;
+  background-image: url(/assets/img/menu-gradient.png);
+  background-size: cover;
+  position: relative;
+}
+
+.menu .container-fluid {}
+
+.menu .menu-head {
+  height: 325px;
+  background-color: #ea9a19;
+  text-align: center;
+  position: absolute;
+  margin-top: 100px;
+  width: 100%;
+}
+
+.menu .menu-head>h2 {
+  font-size: 60px;
+  color: #3e682a;
+  font-weight: 600;
+  font-family: "Poppins";
+  margin-top: 30px;
+}
+
+.menu .menu-head>h3 {
+  font-size: 30px;
+  letter-spacing: -1px;
+  line-height: 58px;
+  color: #3e682a;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+
+.menu .menu-head>p {
+  font-size: 17px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #3e682a;
+  font-weight: 400;
+  font-family: "Poppins";
+  width: 900px;
+  margin-left: 300px;
+}
+
 /* ==========Subscription============*/
 .subscribe {
   height: 720px;
   background-color: #ffffff;
-  
+
 }
 
 .subscribe .container-fluid {
   position: absolute;
 }
-.subscribe .row{
-}
+
+.subscribe .row {}
 
 .subscribe .row>h3 {
   font-family: myfont;
@@ -504,8 +563,8 @@ body {
   border-radius: 27px;
   border-color: #537543;
   border-width: 5px;
-  background-color:#ffffff;
-  position:absolute;
+  background-color: #ffffff;
+  position: absolute;
   margin-top: 420px;
 }
 
