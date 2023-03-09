@@ -446,15 +446,23 @@ body {
   height: 570px;
   color: #ffffff;
   text-align: center;
+  position: relative;
 }
 
 .testimonial .container .carousel-indicators>button {
-  width: 27px;
-  height: 27px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: #e7e7e7;
 }
+.testimonial .container .carousel-indicators .active {
+  border-color: #f70404;
+  border-style: solid;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
 
+}
 .testimonial .t-item>h3 {
   font-family: myfont;
   font-size: 80px;
@@ -480,18 +488,15 @@ body {
   height: 1715px;
   background-image: url(/assets/img/menu-gradient.png);
   background-size: cover;
-  position: relative;
 }
-
-.menu .container-fluid {}
 
 .menu .menu-head {
   height: 325px;
   background-color: #ea9a19;
   text-align: center;
-  position: absolute;
-  margin-top: 100px;
   width: 100%;
+  margin-top: 100px;
+  position: absolute;
 }
 
 .menu .menu-head>h2 {
@@ -519,7 +524,173 @@ body {
   font-weight: 400;
   font-family: "Poppins";
   width: 900px;
-  margin-left: 300px;
+  margin-left: 450px;
+}
+.menu .carousel-inner{
+  height: 1100px;
+  margin-top: 100px;
+}
+.menu .container-fluid{
+padding-top: 400px;
+}
+/*  row 1  */
+/* col 1 */
+.menu .container .r1{
+  position: relative;
+}
+.menu .container .r1 .c1 >img{
+  position: absolute;
+  filter: drop-shadow(0px 8px 4px rgba(0, 0, 0, 0.7));
+}
+.menu .container .r1 .c1 >h3{
+  color: #ffffff;
+  position: absolute;
+  margin-left: 300px ;
+  margin-top: 50px;
+}
+.menu .container .r1 .c1 >h2{
+  color: #ffffff;
+  position: absolute;
+  margin-left: 300px ;
+  margin-top: 100px;
+}
+.menu .container .r1 .c1 >p{
+  color: #ffffff;
+  position: absolute;
+  margin-left: 300px ;
+  margin-top: 150px;
+  width: 300px;
+}
+/* col2  */
+.menu .container .r1 .c2 >img{
+  position: absolute;
+  filter: drop-shadow(0px 8px 4px rgba(0, 0, 0, 0.7));
+}
+.menu .container .r1 .c2 >h3{
+  color: #ffffff;
+  position: absolute;
+  margin-left: 350px ;
+  margin-top: 50px;
+}
+.menu .container .r1 .c2 >h2{
+  color: #ffffff;
+  position: absolute;
+  margin-left: 350px ;
+  margin-top: 100px;
+}
+.menu .container .r1 .c2 >p{
+  color: #ffffff;
+  position: absolute;
+  margin-left: 350px ;
+  margin-top: 150px;
+  width: 300px;
+}
+
+/* row2  */
+.menu .container .r2{
+  margin-top:  350px;
+  position: relative;
+}
+/* col 1 */
+.menu .container .r2 .c1 >img{
+  position: absolute;
+  filter: drop-shadow(0px 8px 4px rgba(0, 0, 0, 0.7));
+}
+.menu .container .r2 .c1 >h3{
+  color: #ffffff;
+  position: absolute;
+  margin-left: 300px ;
+  margin-top: 50px;
+}
+.menu .container .r2 .c1 >h2{
+  color: #ffffff;
+  position: absolute;
+  margin-left: 300px ;
+  margin-top: 100px;
+}
+.menu .container .r2 .c1 >p{
+  color: #ffffff;
+  position: absolute;
+  margin-left: 300px ;
+  margin-top: 150px;
+  width: 300px;
+}
+/* col2  */
+.menu .container .r2 .c2 >img{
+  position: absolute;
+  filter: drop-shadow(6px 4px 2px rgba(0, 0, 0, 0.7));
+}
+.menu .container .r2 .c2 >h3{
+  color: #ffffff;
+  position: absolute;
+  margin-left: 350px ;
+  margin-top: 50px;
+}
+.menu .container .r2 .c2 >h2{
+  color: #ffffff;
+  position: absolute;
+  margin-left: 350px ;
+  margin-top: 100px;
+}
+.menu .container .r2 .c2 >p{
+  color: #ffffff;
+  position: absolute;
+  margin-left: 350px ;
+  margin-top: 150px;
+  width: 300px;
+}
+/* row3 */
+.menu .container .r3{
+  margin-top:  350px;
+  position: relative;
+}
+/* col 1 */
+.menu .container .r3 .c1 >img{
+  position: absolute;
+  filter: drop-shadow(3px 2px 4px rgba(0, 0, 0, 0.7));
+}
+.menu .container .r3 .c1 >h3{
+  color: #ffffff;
+  position: absolute;
+  margin-left: 300px ;
+  margin-top: 50px;
+}
+.menu .container .r3 .c1 >h2{
+  color: #ffffff;
+  position: absolute;
+  margin-left: 300px ;
+  margin-top: 100px;
+}
+.menu .container .r3 .c1 >p{
+  color: #ffffff;
+  position: absolute;
+  margin-left: 300px ;
+  margin-top: 150px;
+  width: 300px;
+}
+/* col2  */
+.menu .container .r3 .c2 >img{
+  position: absolute;
+  filter: drop-shadow(5px 6px 2px rgba(0, 0, 0, 0.7));
+}
+.menu .container .r3 .c2 >h3{
+  color: #ffffff;
+  position: absolute;
+  margin-left: 350px ;
+  margin-top: 50px;
+}
+.menu .container .r3 .c2 >h2{
+  color: #ffffff;
+  position: absolute;
+  margin-left: 350px ;
+  margin-top: 100px;
+}
+.menu .container .r3 .c2 >p{
+  color: #ffffff;
+  position: absolute;
+  margin-left: 350px ;
+  margin-top: 150px;
+  width: 300px;
 }
 
 /* ==========Subscription============*/
