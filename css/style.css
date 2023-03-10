@@ -4,7 +4,7 @@
   border: none;
   border-radius: 0;
   color: bisque;
-  background-color: rgb(75, 128, 75);
+  background-color: rgba(77,127,78,255);
   height: 120ppx;
 }
 
@@ -30,7 +30,7 @@
 }
 
 body {
-  background-image: linear-gradient(229deg, #498323 90%, rgba(76, 84, 73, 0) 100%);
+  background-image: linear-gradient(227deg,#69b55d 90%, rgba(76, 84, 73, 0) 100%);
 
 }
 
@@ -133,10 +133,10 @@ body {
   height: 590px;
   border-radius: 297px 0px 0px 297px;
   filter: drop-shadow(-11.698px 14.972px 36.5px rgba(83, 83, 83, 0.13));
-  background-color: #f0c60b;
+  background-color: rgba(242,204,57,255);
   position: absolute;
   right: 0px;
-  color: #537543;
+  color: rgba(82,130,78,255);;
 }
 
 .abtfood .container-fluid .abt .desc>h2 {
@@ -164,9 +164,9 @@ body {
   width: 275px;
   height: 54px;
   border-radius: 27px;
-  border-color: #537543;
+  border-color: rgba(82,130,78,255);;
   border-width: 5px;
-  color: #537543;
+  color:rgba(82,130,78,255);;
   font-size: 30px;
   background-color: #ffffff;
   margin-top: 20px;
@@ -186,7 +186,7 @@ body {
 /*===========Rating=============*/
 .rating {
   height: 560px;
-  background-color: #537543;
+  background-color: rgba(61,118,63,255);
   color: #ffffff
 }
 
@@ -447,17 +447,20 @@ body {
   color: #ffffff;
   text-align: center;
   position: relative;
+  background-color: #387a3d;
 }
 
 .testimonial .container .carousel-indicators>button {
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
-  background-color: #e7e7e7;
+  margin: 10px;
+  border: 3px solid rgb(0, 97, 16);
+    box-shadow:0 0 0 0px rgb(255, 255, 255), 0 0 0 2px #f7f7f7;
 }
 .testimonial .container .carousel-indicators .active {
-  border-color: #f70404;
-  border-style: solid;
+  border: 3px solid rgb(0, 97, 16);
+  box-shadow:0 0 0 0px rgb(255, 255, 255), 0 0 0 2px #f7f7f7;
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -486,13 +489,16 @@ body {
 /*============Menu===================*/
 .menu {
   height: 1715px;
-  background-image: url(/assets/img/menu-gradient.png);
-  background-size: cover;
+  background-image: url(/assets/img/menu-border.png),url(/assets/img/menu-border.png),linear-gradient(262deg, #7cb258 0%, rgba(76,84,73,0) 100%);
+  background-size:300px,300px,cover;
+  background-repeat:repeat-x,repeat-x,no-repeat;
+  background-position: top,top,center;
+  background-position-y: 425px,78px,0px;
 }
 
 .menu .menu-head {
   height: 325px;
-  background-color: #ea9a19;
+  background-color:rgba(242,204,57,255);
   text-align: center;
   width: 100%;
   margin-top: 100px;
@@ -558,7 +564,7 @@ padding-top: 400px;
   color: #ffffff;
   position: absolute;
   margin-left: 300px ;
-  margin-top: 150px;
+  margin-top: 158px;
   width: 300px;
 }
 /* col2  */
@@ -569,20 +575,20 @@ padding-top: 400px;
 .menu .container .r1 .c2 >h3{
   color: #ffffff;
   position: absolute;
-  margin-left: 350px ;
-  margin-top: 50px;
+  margin-left: 370px ;
+  margin-top: 45px;
 }
 .menu .container .r1 .c2 >h2{
   color: #ffffff;
   position: absolute;
-  margin-left: 350px ;
-  margin-top: 100px;
+  margin-left: 370px ;
+  margin-top: 90px;
 }
 .menu .container .r1 .c2 >p{
   color: #ffffff;
   position: absolute;
-  margin-left: 350px ;
-  margin-top: 150px;
+  margin-left: 370px ;
+  margin-top: 145px;
   width: 300px;
 }
 
@@ -618,24 +624,26 @@ padding-top: 400px;
 /* col2  */
 .menu .container .r2 .c2 >img{
   position: absolute;
+  margin-top: -20px;
+  margin-left: 40px;
   filter: drop-shadow(6px 4px 2px rgba(0, 0, 0, 0.7));
 }
 .menu .container .r2 .c2 >h3{
   color: #ffffff;
   position: absolute;
-  margin-left: 350px ;
+  margin-left: 370px ;
   margin-top: 50px;
 }
 .menu .container .r2 .c2 >h2{
   color: #ffffff;
   position: absolute;
-  margin-left: 350px ;
+  margin-left: 370px ;
   margin-top: 100px;
 }
 .menu .container .r2 .c2 >p{
   color: #ffffff;
   position: absolute;
-  margin-left: 350px ;
+  margin-left: 370px ;
   margin-top: 150px;
   width: 300px;
 }
@@ -647,6 +655,7 @@ padding-top: 400px;
 /* col 1 */
 .menu .container .r3 .c1 >img{
   position: absolute;
+  margin-top: 20px;
   filter: drop-shadow(3px 2px 4px rgba(0, 0, 0, 0.7));
 }
 .menu .container .r3 .c1 >h3{
@@ -671,28 +680,43 @@ padding-top: 400px;
 /* col2  */
 .menu .container .r3 .c2 >img{
   position: absolute;
+  margin-left: 40px;
   filter: drop-shadow(5px 6px 2px rgba(0, 0, 0, 0.7));
 }
 .menu .container .r3 .c2 >h3{
   color: #ffffff;
   position: absolute;
-  margin-left: 350px ;
+  margin-left: 370px ;
   margin-top: 50px;
 }
 .menu .container .r3 .c2 >h2{
   color: #ffffff;
   position: absolute;
-  margin-left: 350px ;
+  margin-left: 370px ;
   margin-top: 100px;
 }
 .menu .container .r3 .c2 >p{
   color: #ffffff;
   position: absolute;
-  margin-left: 350px ;
+  margin-left: 370px ;
   margin-top: 150px;
   width: 300px;
 }
-
+.menu .carousel-indicators >button{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 10px;
+  border: 3px solid rgb(0, 97, 16);
+ box-shadow:0 0 0 0px rgb(255, 255, 255), 0 0 0 2px #f7f7f7;
+}
+.menu .carousel-indicators .active {
+  border: 3px solid rgb(0, 97, 16);
+  box-shadow:0 0 0 0px rgb(255, 255, 255), 0 0 0 2px #f7f7f7;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
 /* ==========Subscription============*/
 .subscribe {
   height: 720px;
@@ -709,7 +733,7 @@ padding-top: 400px;
 .subscribe .row>h3 {
   font-family: myfont;
   font-size: 80px;
-  color: #68914f;
+  color: rgba(82,130,78,255);
   font-weight: 700;
   width: 700px;
   text-align: center;
@@ -719,7 +743,7 @@ padding-top: 400px;
 
 .subscribe .row>p {
   font-size: 20px;
-  color: #658e4d;
+  color: rgba(82,130,78,255);
   font-weight: 400;
   width: 900px;
   font-family: "Poppins";
@@ -732,7 +756,7 @@ padding-top: 400px;
   width: 800px;
   height: 54px;
   border-radius: 27px;
-  border-color: #537543;
+  border-color: rgba(82,130,78,255);
   border-width: 5px;
   background-color: #ffffff;
   position: absolute;
@@ -757,7 +781,7 @@ padding-top: 400px;
 }
 
 .footer {
-  background-color: rgb(47, 117, 47);
+  background-color: rgba(56,122,61,255);
   width: 100%;
 }
 
