@@ -46,7 +46,12 @@ body {
   color: aliceblue;
   height: 830px;
   background-image: url()linear-gradient(229deg, #7cb258 0%, rgba(76, 84, 73, 0) 100%);
-  background: -webkit-image-set();
+  background-image: url(/assets/img/abt_bg.png),url(/assets/img/abt_bg.png);
+  background-size: 600px;
+  background-repeat:no-repeat;
+  background-position-y:50px,-260px;
+  background-position-x:1400px,1100px;
+
 }
 
 .about .col-6>h2 {
@@ -142,6 +147,9 @@ body {
 .abtfood .container-fluid .abt .desc>h2 {
   font-family: myfont;
   font-weight: 700px;
+}
+.abtfood .container-fluid .abt >img{
+  filter: drop-shadow(0px 30px 30px rgba(0, 0, 0, 0.7));
 }
 
 .abtfood .container-fluid .abt .desc>h3 {
@@ -308,6 +316,7 @@ body {
   letter-spacing: 3px;
   line-height: 25px;
   color: #ffffff;
+  font-weight: bolder;
   font-weight: 400;
   font-family: "Poppins";
   text-align: center;
@@ -325,6 +334,7 @@ body {
   letter-spacing: 3px;
   line-height: 25px;
   color: #ffffff;
+  font-weight: 300;
   font-weight: 400;
   font-family: "Poppins";
   text-align: center;
@@ -341,7 +351,7 @@ body {
   padding: 20px;
   line-height: 25px;
   color: #ffffff;
-  font-weight: 400;
+  font-weight: 800;
   font-family: "Poppins";
   text-align: center;
   background-color: #537543;
@@ -387,12 +397,19 @@ body {
   position: absolute;
 
 }
+.chef .para{
+  margin-left: 100px;
+}
 
 /*==========History=========  */
 .history {
   height: 834px;
   border-radius: 10px 0px 0px 10px;
   background-color: #ea9a19;
+  background-image: url(/assets/img/history_bg-1.png),url(/assets/img/history_bg_2.png);
+  background-position-x: -300px,1600px;
+  background-repeat: repeat-y,repeat-y;
+  background-size:400px,400px;
 }
 
 .history .col h3 {
@@ -428,6 +445,7 @@ body {
   border-radius: 15px;
   background-image: url(/assets/img/history_img.png);
   margin-top: 200px;
+  filter: drop-shadow(3px 10px 30px rgba(0, 0, 0, 0.7));
 }
 
 .history .col>button {
@@ -557,6 +575,7 @@ padding-top: 400px;
 .menu .container .r1 .c1 >h2{
   color: #ffffff;
   position: absolute;
+  font-size:40px;
   margin-left: 300px ;
   margin-top: 100px;
 }
@@ -583,6 +602,8 @@ padding-top: 400px;
   position: absolute;
   margin-left: 370px ;
   margin-top: 90px;
+  position: absolute;
+  font-size:40px;
 }
 .menu .container .r1 .c2 >p{
   color: #ffffff;
@@ -613,6 +634,8 @@ padding-top: 400px;
   position: absolute;
   margin-left: 300px ;
   margin-top: 100px;
+  position: absolute;
+  font-size:40px;
 }
 .menu .container .r2 .c1 >p{
   color: #ffffff;
@@ -639,6 +662,8 @@ padding-top: 400px;
   position: absolute;
   margin-left: 370px ;
   margin-top: 100px;
+  position: absolute;
+  font-size:40px;
 }
 .menu .container .r2 .c2 >p{
   color: #ffffff;
@@ -669,6 +694,8 @@ padding-top: 400px;
   position: absolute;
   margin-left: 300px ;
   margin-top: 100px;
+  position: absolute;
+  font-size:40px;
 }
 .menu .container .r3 .c1 >p{
   color: #ffffff;
@@ -694,6 +721,8 @@ padding-top: 400px;
   position: absolute;
   margin-left: 370px ;
   margin-top: 100px;
+  position: absolute;
+  font-size:40px;
 }
 .menu .container .r3 .c2 >p{
   color: #ffffff;
@@ -804,9 +833,16 @@ padding-top: 400px;
 .col>p {
   margin-top: 10px;
 }
+.footer >a{
+  text-decoration: none;
+  background-color: #ffffff;
+}
 
 .col>ul {
   margin-top: 10px;
   list-style: none;
   margin-left: -33px;
+}
+a{
+  
 }
